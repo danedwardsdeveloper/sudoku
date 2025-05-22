@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+	--text-base: 1.125rem;
+}
+
+@layer base {
+	h1 {
+		@apply text-3xl font-bold mb-8;
+	}
+}
