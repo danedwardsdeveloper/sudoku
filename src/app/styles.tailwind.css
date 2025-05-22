@@ -1,11 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
-	--text-base: 1.125rem;
-}
-
-@layer base {
-	h1 {
-		@apply text-3xl font-bold mb-8;
-	}
+	--font-size-base: 1.125rem;
+	--color-waffle-green: rgb(111, 176, 92);
+	--color-waffle-mustard: rgb(233, 186, 58);
 }
